@@ -1,0 +1,19 @@
+{
+  "name": "forkcms",
+  "version": "1.0.0",
+  "description": "forkcms automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "kogila vani kannan",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "selenium-standalone": "^6.15.3",
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-selenium-standalone-service": "0.0.10"
+  }
+}
